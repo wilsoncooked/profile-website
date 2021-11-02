@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: Hind, Helvetica Neue, sans-serif;
   background-color: #e9ddc3;
+  scroll-behavior: smooth;
 }
 
 a {
