@@ -1,4 +1,8 @@
-import { MenuLink } from '../lib/types'
+type MenuLink = {
+  href: string
+  label: string
+  openInNewTab?: boolean
+}
 
 export const explore: MenuLink[] = [
   {
