@@ -8,13 +8,18 @@ module.exports = {
       'indigo-dye': '#1E3B69',
       champaign: '#E9DDC3',
       tumbleweed: '#E7A888',
-      'mountbatten-pink': '#98717B'
+      'mountbatten-pink': '#98717B',
+      white: '#ffffff'
     },
     fontFamily: {
       sans: ['Hind', 'sans-serif'],
       serif: ['Rufina', 'serif']
     },
-    extend: {}
+    extend: {
+      height: {
+        min: 'min-content'
+      }
+    }
   },
   variants: {
     extend: {}

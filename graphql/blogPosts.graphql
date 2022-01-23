@@ -1,8 +1,0 @@
-query BlogPosts {
-  blogPosts {
-    id
-    Title
-    Date
-    Content
-  }
-}

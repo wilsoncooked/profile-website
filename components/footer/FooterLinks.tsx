@@ -11,7 +11,7 @@ type Props = {
   listItems: ListItem[]
 }
 
-export function FooterList({ title, listItems }: Props) {
+export function FooterLinks({ title, listItems }: Props) {
   return (
     <ul className="text-xl text-rust tracking-wider">
       <li className="font-serif font-extrabold my-2">{title}</li>

@@ -1,0 +1,17 @@
+{
+  "id": "blog_tag",
+  "label": "Blog Tag",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "tag": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "Tag"
+        }
+      }
+    }
+  },
+  "status": false
+}
