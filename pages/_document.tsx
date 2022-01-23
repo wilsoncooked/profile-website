@@ -15,6 +15,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          {/* <script
+            async
+            defer
+            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=wilsoncooked"
+          ></script> */}
         </Head>
         <body>
           <Main />
