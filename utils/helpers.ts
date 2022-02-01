@@ -4,9 +4,9 @@ export const toImageUrl = (url: string) => {
 export const formatDate = (isoString: string) => {
   const date = new Date(isoString)
 
-  return new Intl.DateTimeFormat('en-US', {
-    month: 'long',
+  return new Intl.DateTimeFormat('en-UK', {
     day: 'numeric',
-    year: 'numeric'
+    month: 'numeric',
+    year: '2-digit'
   }).format(date)
 }

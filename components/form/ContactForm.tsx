@@ -22,7 +22,7 @@ export function ContactForm() {
       <div className="my-6">
         <label className="hidden">Name</label>
         <input
-          className="border-b-2 border-rust bg-champaign w-full placeholder-rust text-rust tracking-wider text-2xl px-2 pb-1 pt-3 outline-none"
+          className="border-b-2  bg-champaign w-full placeholder-black   tracking-wider text-xl px-2 pb-1 pt-3 outline-none"
           placeholder="NAME"
           required
           {...register('name')}
@@ -31,7 +31,7 @@ export function ContactForm() {
       <div className="my-6">
         <label className="hidden">Email</label>
         <input
-          className="border-b-2 border-rust bg-champaign w-full placeholder-rust text-rust tracking-wider text-2xl px-2 pb-1 pt-3 outline-none"
+          className="border-b-2 bg-champaign w-full placeholder-black  tracking-wider text-xl px-2 pb-1 pt-3 outline-none"
           placeholder="EMAIL"
           type="email"
           required
@@ -41,7 +41,7 @@ export function ContactForm() {
       <div className="my-6">
         <label className="hidden">Message</label>
         <textarea
-          className="border-2 border-rust bg-champaign w-full placeholder-rust text-rust tracking-wider text-2xl px-2 pb-1 pt-3 outline-none"
+          className="border-2 bg-champaign w-full placeholder-black  tracking-wider text-xl px-2 pb-1 pt-3 outline-none"
           placeholder="MESSAGE"
           rows={4}
           {...register('message')}
@@ -49,7 +49,7 @@ export function ContactForm() {
       </div>
       <button
         type="submit"
-        className="tracking-wider text-2xl text-rust border-2 border-rust px-4 pb-2 pt-3 uppercase"
+        className="tracking-wider text-xl  border-2  px-4 pb-2 pt-3 uppercase"
       >
         Let&apos;s chat
       </button>

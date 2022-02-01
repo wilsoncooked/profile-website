@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Navigation } from '../components'
+import { Footer, Logo, Navigation } from '../components'
 
 export default function BaseLayout({
   children
@@ -8,6 +8,7 @@ export default function BaseLayout({
 }) {
   return (
     <>
+      <Logo />
       <Navigation />
       {children}
       <Footer />

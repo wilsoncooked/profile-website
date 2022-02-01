@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import Menu from '../../assets/icons/Menu'
+import Menu from './Menu'
 import NavigationLinks from './NavigationLinks'
 
 export function Navigation() {
@@ -19,7 +19,7 @@ export function Navigation() {
     <>
       <button
         onClick={() => setMenuOpen(!menuOpen)}
-        className="fixed right-12 top-6 z-50"
+        className="fixed right-12 top-6 z-50 "
       >
         <Menu menuOpen={menuOpen} />
       </button>

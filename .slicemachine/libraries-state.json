@@ -1,0 +1,77 @@
+{
+  "slices": {
+    "components": {
+      "sample": {
+        "library": "slices",
+        "id": "sample",
+        "name": "Sample",
+        "description": "Sample",
+        "model": {
+          "id": "sample",
+          "type": "SharedSlice",
+          "name": "Sample",
+          "description": "Sample",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Sample",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,heading5,heading6,strong,em,hyperlink,image,list-item"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "sample",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Brand 24/365 infrastructures",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Veniam sit est excepteur reprehenderit ipsum amet duis exercitation aliqua minim duis occaecat eu occaecat. Enim in sunt culpa cillum ea veniam id.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "tsx"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

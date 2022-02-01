@@ -13,7 +13,7 @@ type Props = {
 
 export function FooterLinks({ title, listItems }: Props) {
   return (
-    <ul className="text-xl text-rust tracking-wider">
+    <ul className="text-xl  tracking-wider">
       <li className="font-serif font-extrabold my-2">{title}</li>
       {listItems.map((item, index) => (
         <li key={index} className="my-1.5">

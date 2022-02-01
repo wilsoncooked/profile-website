@@ -9,7 +9,7 @@ export function Footer() {
   const scrollToTop = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault()
     window && window.scrollTo(0, 0)
-    router.push('')
+    // router.push('/')
   }
 
   return (
@@ -17,7 +17,7 @@ export function Footer() {
       <div>
         <button
           onClick={(e) => scrollToTop(e)}
-          className="text-2xl text-rust font-serif font-extrabold  tracking-wider "
+          className="text-2xl  font-serif font-extrabold  tracking-wider "
         >
           wilsoncooked
         </button>
@@ -30,7 +30,7 @@ export function Footer() {
           <div>
             <button
               onClick={(e) => scrollToTop(e)}
-              className="border border-rust rounded-full w-28 h-28 pt-1 flex items-center justify-center text-rust uppercase hover:text-champaign hover:bg-rust duration-150 hover:duration-150 tracking-widest"
+              className="border rounded-full w-28 h-28 pt-1 flex items-center justify-center  uppercase hover:text-champaign hover:bg-black duration-150 hover:duration-150 tracking-widest"
             >
               To Top
             </button>

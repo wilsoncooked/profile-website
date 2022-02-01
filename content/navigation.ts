@@ -13,13 +13,13 @@ export const explore: MenuLink[] = [
     href: '/#about',
     label: 'About'
   },
-  {
-    href: '/#my-work',
-    label: 'My work'
-  },
+  // {
+  //   href: '/#my-work',
+  //   label: 'My work'
+  // },
   {
     href: '/blog',
-    label: 'Blog'
+    label: 'Thoughts'
   },
   {
     href: '/#contact',
@@ -42,10 +42,10 @@ export const social: MenuLink[] = [
     href: 'https://twitter.com/wilsoncooked',
     label: 'Twitter',
     openInNewTab: true
-  },
-  {
-    href: 'https://www.instagram.com/wilsoncooked/',
-    label: 'Instagram',
-    openInNewTab: true
   }
+  // {
+  //   href: 'https://www.instagram.com/wilsoncooked/',
+  //   label: 'Instagram',
+  //   openInNewTab: true
+  // }
 ]

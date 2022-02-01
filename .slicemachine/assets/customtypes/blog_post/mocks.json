@@ -1,6 +1,31 @@
 {
-  "id": "5e010adf-8969-4451-b389-54cea638349d",
-  "uid": "necessitatibus-impedit-quod",
+  "id": "c2b50153-8015-4bfc-b5b0-170b1ea83e3f",
+  "uid": "dignissimos-ut-aliquam",
   "type": "blog_post",
-  "data": {}
+  "data": {
+    "title": [
+      {
+        "type": "heading4",
+        "text": "Maximize front-end bandwidth",
+        "spans": []
+      }
+    ],
+    "cardImage": {
+      "dimensions": {
+        "width": 1600,
+        "height": 1600
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=1600&h=1600&fit=crop"
+    },
+    "excerpt": [
+      {
+        "type": "paragraph",
+        "text": "Sunt dolor cupidatat quis.",
+        "spans": []
+      }
+    ],
+    "datePublished": "2016-04-24"
+  }
 }

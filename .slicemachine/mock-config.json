@@ -1,6 +1,54 @@
 {
-  "slices": {},
+  "slices": {
+    "Sample": {
+      "0": {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "sample",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Whiteboard out-of-the-box portals",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Culpa occaecat esse minim Lorem eu tempor fugiat in esse incididunt minim. Cupidatat quis ullamco incididunt do dolor nulla Lorem duis culpa et Lorem tempor dolor ullamco ut.",
+              "spans": []
+            }
+          ]
+        }
+      },
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
   "_cts": {
-    "blog_post": {}
+    "blog_post": {
+      "excerpt": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
   }
 }
